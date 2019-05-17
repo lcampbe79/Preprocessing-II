@@ -1,1 +1,25 @@
 // Mixins in here
+
+.borders() {
+    border-bottom: 2px dashed @navigation-border;
+}
+
+.custom-button(@width: 200px, @button-bg: #17A2B8,@font-color: #FFFFFF) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: @button-bg;
+    // margin: auto;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font-color;
+
+    &:hover {
+    background-color: darken(@button-bg, 10%);
+  }
+
+}
+

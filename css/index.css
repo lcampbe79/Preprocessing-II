@@ -168,6 +168,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  margin: 30px 0;
+  padding: 20px 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav a {
+  margin-left: 20px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #212529;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +191,14 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-section .header {
+  width: 100%;
+  padding: 30px 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .header-section .main-image {
+  padding-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -217,11 +238,26 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #17A2B8;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.home .content-pick .btn:hover {
+  background-color: #117a8b;
 }
