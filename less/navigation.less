@@ -1,1 +1,20 @@
 // Navigation Styles here
+
+.nav {
+    margin: 30px 0 0;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    .borders();
+
+    @media @phone {
+        padding: 20px;
+    }
+
+    a {
+        margin-left: 20px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: @font-color;
+    }
+}
